@@ -1,0 +1,170 @@
+/***** JUBILEE AUSTIN *****/
+/***** BASE STYLES *****/
+body{
+font-family: 'source sans pro',sans-serif;
+color: #2b2b2b;
+}
+/***** GRID *****/
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.half-width{
+  width:  600px;
+  float:left;
+}
+.third-width{
+  width: 400px;
+  float: left;
+}
+/***** HEADER *****/
+header {
+    height: 800PX;
+    background: url('../img/hero.png');
+    background-size: cover;
+    background-position: center;
+}
+/***Jubilee Austin=h1***/
+header h1 {
+    padding: 65px 0 65px 25px;
+    font-family: 'Lora';
+    font-size:30px;
+    color: #bbc085;
+}
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+/***h2 = Hi***/
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family:'Lora', serif;
+    font-size:70px;
+    line-height:150%;
+    color: black;
+    padding: 20px 0 20px 50px;
+}
+header h2 span {
+    color: #828282;
+}
+/***** ABOUT *****/
+#about .full-width{
+  padding: 80px 0;
+}
+/****this is riding up too high ****/
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+#about p {
+    font-size:21px;
+    color: #7f7f7f;
+    line-height:40px;
+    padding-left:50px;
+    padding-right:50px;
+}
+/***** WORK *****/
+#work .full-width {
+  padding: 115px 0;
+  text-align: center;
+  background-color: #f9ceb7
+}
+#work img {
+  padding-bottom: 30px;
+}
+#work h3{
+  font-size:24px;
+  line-height:32px;
+  width: 175px;
+  margin: 0 auto;
+}
+#work p{
+  font-family: Lora;
+  font-size:18px;
+  line-height:30px;
+  padding: 0 50px;
+}
+/***** CONTACT *****/
+#contact .full-width {
+  padding: 110px 0;
+  background-color: #ebebeb
+}
+#contact img#contact-img {
+  margin-left: 25px;
+  border: 12px solid #ffffff;
+}
+#contact .half-width {
+  color: #2b2b2b;
+  line-height: 44px;
+}
+/***** Like what you see?= h2 *****/
+#contact h2{
+  font-family: 'Lora';
+  font-size: 36px;
+  line-height: normal;
+}
+/***** Let's meet for a cup of coffee= h3 *****/
+#contact #email-header{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: normal;
+    margin: -30px 0 5px 0;
+}
+/***** email address *****/
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size:28px
+}
+/***** find me on the interwebs= h5 *****/
+#contact #socialmedia-header {
+    font-weight:bold;
+    font-size: 29px;
+    line-height: normal;
+    margin: 40px 0 0 0;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul{
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+/***** something is wrong at this point- when I add the code in #6 the social
+media icons are not in the right place- nothing changed. I added classes & IDs
+and it worked but there must be an easier way!*****/
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
+.socialmedia-icons{
+  padding-left: 115px;
+}
+#contact #tumblr, #contact #instagram, #contact #linkedin, #contact #github{
+    padding-left: 50px;
+}
+/******WORK PAGE !*****/
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
